@@ -1,0 +1,193 @@
+* {
+	box-sizing: border-box;
+
+}
+.container{
+	height: 100%;
+	width:100%;
+}
+.main_text{
+	text-align: center;
+	font-size: 45px;
+	margin: 30px;
+	font-family: 'Roboto', serif;
+	font-weight: bold;
+}
+.box1{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-color: #999999;
+	border: solid;
+	font-family: 'Roboto', serif;
+}
+.box2{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-color: #999999;
+	border: solid;
+	font-family: 'Roboto', serif;
+}
+.box3{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-color: #999999;
+	border: solid;
+	font-family: 'Roboto', serif;
+}
+.menu{
+	text-align: center;
+	font-weight: bold;
+}
+.menu_name_Beef{
+	color:#ffffff;
+	text-align: center;
+	font-weight: bold;
+}
+
+.box_small1{
+	right: 0;
+	top: 0;
+	background-color: #d59898;
+	position: absolute;
+	border-bottom: solid;
+	border-left: solid;
+	width: 30%;
+	height: 15%;
+}
+
+.box_small2{
+	right: 0;
+	top: 0;
+	background-color:#c14543;
+	position: absolute;
+	border-bottom: solid;
+	border-left: solid;
+	width: 30%;
+	height: 15%;
+}
+.box_small3{
+	right: 0;
+	top: 0;
+	background-color:#e5d198;
+	position: absolute;
+	border-bottom: solid;
+	border-left: solid;
+	width: 30%;
+	height: 15%;
+}
+.text{
+	padding: 3% 1%;
+	font-family: 'Roboto', serif;
+	font-size: 14px;
+
+
+}
+@media (min-width:992px){
+	.container{
+		width: 100%;
+	}
+	.box1{
+		margin-top: 5px;
+		height: 100%;
+		width: 31%;
+		margin-right: 2%;
+		display: inline-block;
+
+	}
+	.box2{
+		margin-top: 20px;
+		height: 100%;
+		width: 31%;
+		display: inline-block;
+		margin-right: 2%;
+	}
+	.box3{
+		margin-top: 20px;
+		height: 100%;
+		width: 31%;
+		display: inline-block;
+		margin-right: 2%;
+	}
+	.box_small1{
+		height: 20%;
+	}
+	.box_small2{
+		height: 20%;
+	}
+	.box_small3{
+		height: 20%;
+	}
+	.text{
+		padding-top: 10%;
+	}
+}
+@media (max-width:991px){
+	.container{
+		width: 100%;
+	}
+	.box1{
+		width: 49%;
+		height: 100%;
+		display: inline-block;
+		margin-right: 1%;
+
+	}
+	.box2{
+		height: 100%;
+		width: 49%;
+		display: inline-block;
+		margin-right: -1%;
+	}
+	.box3{
+		margin-top: 20px;
+		height: 100%;
+		width: 100%;
+	}
+	.box_small1{
+		height: 25%;
+	}
+	.box_small2{
+		height: 25%;
+	}
+	.box_small3{
+		height: 25%;
+	}
+	.text{
+		padding-top: 10%;
+	}
+
+}
+@media (max-width: 767px){
+	.container{
+		width: 100%;
+	}
+	.box1{
+		width: 100%;
+		height:100%;
+	}
+	.box2{
+		margin-top: 14px;
+		height: 100%;
+		width: 100%;
+	}
+	.box3{
+		margin-top: 14px;
+		height: 100%;
+		width: 100%;
+	}
+	.box_small1{
+		height: 25%;
+	}
+	.box_small2{
+		height: 25%;
+	}
+	.box_small3{
+		height: 25%;
+	}
+	.text{
+		padding-top: 10%;
+	}
+}
